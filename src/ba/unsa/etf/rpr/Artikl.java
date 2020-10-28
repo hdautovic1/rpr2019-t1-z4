@@ -4,20 +4,20 @@ public class Artikl {
     private String naziv,kod;
     private int cijena;
 
-    public Artikl() {
-        naziv="";
-        kod="";
-        cijena=0;
+
+    public Artikl(String naziv, int cijena, String kod) {
+        this.naziv=naziv;
+        this.cijena=cijena;
+        this.kod=kod;
     }
 
+    public String getNaziv() {
+        return naziv;
+    }
     public int getCijena() {
         return cijena;
     }
-
-    public Artikl(String naziv, int i, String s) {
-        this.naziv=naziv;
-        cijena=i;
-        kod=s;
-
+    public String getKod() {
+        return kod;
     }
 }
