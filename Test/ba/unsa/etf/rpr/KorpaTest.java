@@ -22,6 +22,17 @@ class KorpaTest {
             System.out.println("Uspjesan test");
         } else System.out.println("Neuspjesan");
     }
+    @org.junit.jupiter.api.Test
+    void TestPrekoracenjaod50() {
+        Korpa k = new Korpa();
+        for(int i=0;i<50;i++){
+            Artikl art =new Artikl("jabuka",20,"i");
+            k.dodajArtikl(art);
+        }
+        Artikl a =new Artikl("jabuka",20,"219");
+        assertFalse(k.dodajArtikl(a));
+
+    }
 
     @org.junit.jupiter.api.Test
     void dajUkupnuCijenuArtikala() {

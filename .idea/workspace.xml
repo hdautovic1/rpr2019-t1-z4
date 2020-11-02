@@ -19,13 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f1532ee-6241-49db-a6f1-947414554df5" name="Default Changelist" comment="Final">
-      <change afterPath="$PROJECT_DIR$/Test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpr2019-t1-z4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr2019-t1-z4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Artikl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Artikl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" afterDir="false" />
+    <list default="true" id="7f1532ee-6241-49db-a6f1-947414554df5" name="Default Changelist" comment="Dodani neki junit testovi">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/ba/unsa/etf/rpr/KorpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/ba/unsa/etf/rpr/SupermarketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/rpr2019-t1-z4/ba/unsa/etf/rpr/KorpaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/rpr2019-t1-z4/ba/unsa/etf/rpr/KorpaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/rpr2019-t1-z4/ba/unsa/etf/rpr/SupermarketTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/rpr2019-t1-z4/ba/unsa/etf/rpr/SupermarketTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,23 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SupermarketTest.izbaciArtiklSaKodom">
+  <component name="RunManager" selected="JUnit.SupermarketTest.TestPrekoracenjaod1000">
+    <configuration name="KorpaTest.TestPrekoracenjaod50" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr2019-t1-z4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.KorpaTest" />
+      <option name="METHOD_NAME" value="TestPrekoracenjaod50" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KorpaTest.dajUkupnuCijenuArtikala" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rpr2019-t1-z4" />
       <extension name="coverage">
@@ -84,7 +99,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KorpaTest.dodajArtikl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SupermarketTest.TestPrekoracenjaod1000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rpr2019-t1-z4" />
       <extension name="coverage">
         <pattern>
@@ -93,24 +108,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
-      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.KorpaTest" />
-      <option name="METHOD_NAME" value="dodajArtikl" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KorpaTest.izbaciArtiklSaKodom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rpr2019-t1-z4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
-      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.KorpaTest" />
-      <option name="METHOD_NAME" value="izbaciArtiklSaKodom" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.SupermarketTest" />
+      <option name="METHOD_NAME" value="TestPrekoracenjaod1000" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SupermarketTest.TestPrekoracenjaod1000" />
+        <item itemvalue="JUnit.KorpaTest.TestPrekoracenjaod50" />
         <item itemvalue="JUnit.SupermarketTest.izbaciArtiklSaKodom" />
         <item itemvalue="JUnit.SupermarketTest.dodajArtikl" />
         <item itemvalue="JUnit.KorpaTest.dajUkupnuCijenuArtikala" />
-        <item itemvalue="JUnit.KorpaTest.izbaciArtiklSaKodom" />
-        <item itemvalue="JUnit.KorpaTest.dodajArtikl" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603894467494</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dodani neki junit testovi">
+      <created>1604339584829</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604339584829</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,7 +205,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Zavrsetak" />
     <MESSAGE value="Final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final" />
+    <MESSAGE value="Dodani neki junit testovi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodani neki junit testovi" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1603735371774">
@@ -214,22 +221,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1603891980204" />
-    <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1604339432483">
+    <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1604339815878">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604339432483" />
-    <state width="1493" height="214" key="GridCell.Tab.0.center" timestamp="1604339432482">
+    <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604339815878" />
+    <state width="1493" height="214" key="GridCell.Tab.0.center" timestamp="1604339815878">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604339432482" />
-    <state width="1493" height="214" key="GridCell.Tab.0.left" timestamp="1604339432482">
+    <state width="1493" height="214" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604339815878" />
+    <state width="1493" height="214" key="GridCell.Tab.0.left" timestamp="1604339815878">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604339432482" />
-    <state width="1493" height="214" key="GridCell.Tab.0.right" timestamp="1604339432483">
+    <state width="1493" height="214" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604339815878" />
+    <state width="1493" height="214" key="GridCell.Tab.0.right" timestamp="1604339815878">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604339432483" />
+    <state width="1493" height="214" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604339815878" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603894483910">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -250,6 +257,20 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1603736876227" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Test/ba/unsa/etf/rpr/KorpaTest.java</url>
+          <line>25</line>
+          <properties class="ba.unsa.etf.rpr.KorpaTest" method="TestPrekoracenjaod50">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/rpr2019_t1_z4$SupermarketTest_izbaciArtiklSaKodom.ic" NAME="SupermarketTest.izbaciArtiklSaKodom Coverage Results" MODIFIED="1604339432446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
