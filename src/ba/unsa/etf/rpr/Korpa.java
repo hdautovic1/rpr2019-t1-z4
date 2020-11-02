@@ -1,43 +1,43 @@
 package ba.unsa.etf.rpr;
 
 public class Korpa {
-    private Artikl[] artikli = new Artikl[50];
-    private int BrojClanova=0;
+       private  Artikl[] artikli = new Artikl[50];
+       private int BrojArtikala = 0;
+
 
     public boolean dodajArtikl(Artikl a) {
-        if(BrojClanova<50){
-            artikli[BrojClanova] = new Artikl(a.getNaziv(),a.getCijena(),a.getKod());
-            BrojClanova++;
+        if(BrojArtikala < 50){
+            artikli[BrojArtikala] = new Artikl(a.getNaziv(),a.getCijena(),a.getKod());
+            BrojArtikala++;
             return true;
         }
         return false;
     }
 
-    public int dajUkupnuCijenuArtikala() {
-        int suma=0;
-        for(int i=0;i<BrojClanova;i++){
-            suma=suma+ artikli[i].getCijena();
-        }
-        return suma;
+    public Artikl[] getArtikli() {
+        return  artikli;
     }
 
     public Artikl izbaciArtiklSaKodom(String kod) {
-
-        for(int i=0;i<BrojClanova;i++){
+        for(int i=0;i<BrojArtikala;i++){
             if(kod.equals(artikli[i].getKod())){
-               Artikl pronadjeni=new Artikl(artikli[i].getNaziv(), artikli[i].getCijena(), artikli[i].getKod());
-                int j;
-                for(j=i;j<BrojClanova;j++){
-                    artikli[j]= artikli[j+1];
+                Artikl pronadjen = new Artikl(artikli[i].getNaziv(),artikli[i].getCijena(),artikli[i].getKod());
+                for(int j=i;j<BrojArtikala;j++){
+                    artikli[j]=artikli[j+1];
                 }
-                artikli[BrojClanova]=null;
-                BrojClanova--;
-                return pronadjeni;
+                artikli[BrojArtikala]=null;
+                BrojArtikala--;
+                return pronadjen;
             }
-        } return  null;
+        }
+        return null;
     }
 
-    public Artikl[] getArtikli() {
-        return artikli;
+    public int dajUkupnuCijenuArtikala() {
+        int Ukupna=0;
+        for(int i=0;i<BrojArtikala;i++){
+            Ukupna+=artikli[i].getCijena();
+        }
+        return Ukupna;
     }
 }

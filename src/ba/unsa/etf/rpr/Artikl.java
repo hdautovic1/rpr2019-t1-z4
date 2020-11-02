@@ -1,23 +1,24 @@
 package ba.unsa.etf.rpr;
 
 public class Artikl {
-    private String naziv,kod;
-    private int cijena;
+    private String Naziv;
+    private String Kod;
+    private int Cijena;
 
-
-    public Artikl(String naziv, int cijena, String kod) {
-        this.naziv=naziv;
-        this.cijena=cijena;
-        this.kod=kod;
+    public Artikl(String Naziv, int Cijena, String Kod) {
+        this.Naziv=Naziv;
+        this.Cijena=Cijena;
+        this.Kod=Kod;
     }
+
 
     public String getNaziv() {
-        return naziv;
-    }
-    public int getCijena() {
-        return cijena;
+        return Naziv;
     }
     public String getKod() {
-        return kod;
+        return  Kod;
+    }
+    public int getCijena() {
+        return Cijena;
     }
 }
